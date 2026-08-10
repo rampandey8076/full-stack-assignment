@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+**/node_modules/
+
+# vite build output
+client/dist/
+
+# env files — NEVER commit real env files
+.env
+.env.*
+!.env.example
+!.env.development.example
+!.env.production.example
+
+# logs / os
+*.log
+.DS_Store
